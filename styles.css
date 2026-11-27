@@ -6,8 +6,8 @@
 
 body {
   font-family: "Segoe UI", Arial, sans-serif;
-  background-color: #f1f5f9;
-  color: #0f172a;
+  background-color: #f8fafc;
+  color: #111827;
   line-height: 1.5;
 }
 
@@ -19,11 +19,11 @@ body {
 
 /* Header */
 .topbar {
-  background: linear-gradient(135deg, #0f172a 0%, #1e293b 100%);
+  background: linear-gradient(135deg, #111827 0%, #1f2937 100%);
   color: #ffffff;
   padding: 26px 0;
   margin-bottom: 24px;
-  border-bottom: 3px solid #3b82f6;
+  border-bottom: 3px solid #ea580c;
 }
 
 .topbar-inner {
@@ -36,8 +36,8 @@ body {
 
 .pill {
   display: inline-block;
-  background-color: rgba(59, 130, 246, 0.25);
-  color: #93c5fd;
+  background-color: rgba(234, 88, 12, 0.22);
+  color: #fdba74;
   font-size: 0.75rem;
   font-weight: bold;
   padding: 3px 10px;
@@ -52,7 +52,7 @@ body {
 }
 
 .subtitle {
-  color: #cbd5e1;
+  color: #d1d5db;
   font-size: 0.92rem;
   margin-top: 4px;
 }
@@ -67,16 +67,16 @@ body {
 
 .stat-card {
   background-color: #ffffff;
-  border: 1px solid #e2e8f0;
+  border: 1px solid #cbd5e1;
   border-radius: 10px;
   padding: 16px 20px;
-  box-shadow: 0 2px 6px rgba(15, 23, 42, 0.04);
+  box-shadow: 0 2px 6px rgba(17, 24, 39, 0.04);
 }
 
 .stat-label {
   display: block;
   font-size: 0.82rem;
-  color: #64748b;
+  color: #4b5563;
   font-weight: bold;
   text-transform: uppercase;
 }
@@ -85,7 +85,7 @@ body {
   display: block;
   font-size: 1.75rem;
   margin-top: 4px;
-  color: #0f172a;
+  color: #111827;
 }
 
 .text-green {
@@ -93,7 +93,7 @@ body {
 }
 
 .text-amber {
-  color: #b45309;
+  color: #c2410c;
 }
 
 /* Main Grid & Cards */
@@ -113,16 +113,16 @@ body {
 
 .card {
   background-color: #ffffff;
-  border: 1px solid #e2e8f0;
+  border: 1px solid #cbd5e1;
   border-radius: 10px;
   padding: 20px;
-  box-shadow: 0 2px 6px rgba(15, 23, 42, 0.04);
+  box-shadow: 0 2px 6px rgba(17, 24, 39, 0.04);
 }
 
 .card h2 {
   font-size: 1.15rem;
   margin-bottom: 14px;
-  color: #0f172a;
+  color: #111827;
 }
 
 .section-header {
@@ -166,8 +166,8 @@ body {
 
 .event-date {
   font-size: 0.8rem;
-  background-color: #e2e8f0;
-  color: #334155;
+  background-color: #ffedd5;
+  color: #9a3412;
   padding: 2px 8px;
   border-radius: 6px;
   font-weight: bold;
@@ -190,12 +190,12 @@ body {
 
 .progress-fill {
   height: 100%;
-  background-color: #2563eb;
+  background-color: #ea580c;
   border-radius: 999px;
 }
 
 .progress-full {
-  background-color: #d97706;
+  background-color: #9a3412;
 }
 
 /* Form & Inputs */
@@ -214,7 +214,7 @@ body {
 label {
   font-size: 0.88rem;
   font-weight: bold;
-  color: #334155;
+  color: #374151;
 }
 
 input,
@@ -236,7 +236,7 @@ select {
 input:focus,
 select:focus {
   outline: none;
-  border-color: #2563eb;
+  border-color: #ea580c;
 }
 
 .search-bar {
@@ -254,22 +254,22 @@ select:focus {
 }
 
 .btn-primary {
-  background-color: #2563eb;
+  background-color: #ea580c;
   color: #ffffff;
 }
 
 .btn-primary:hover {
-  background-color: #1d4ed8;
+  background-color: #c2410c;
 }
 
 .btn-secondary {
-  background-color: #334155;
+  background-color: #1f2937;
   color: #ffffff;
-  border: 1px solid #475569;
+  border: 1px solid #4b5563;
 }
 
 .btn-secondary:hover {
-  background-color: #475569;
+  background-color: #374151;
 }
 
 .btn-danger {
@@ -296,7 +296,7 @@ select:focus {
 }
 
 .msg-waitlist {
-  color: #b45309;
+  color: #c2410c;
 }
 
 .msg-error {
@@ -304,8 +304,8 @@ select:focus {
 }
 
 .badge {
-  background-color: #dbeafe;
-  color: #1e40af;
+  background-color: #ffedd5;
+  color: #9a3412;
   padding: 4px 10px;
   border-radius: 999px;
   font-size: 0.8rem;
@@ -326,8 +326,8 @@ select:focus {
 }
 
 .status-waitlisted {
-  background-color: #fef3c7;
-  color: #b45309;
+  background-color: #ffedd5;
+  color: #9a3412;
 }
 
 /* Table */
